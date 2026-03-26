@@ -459,7 +459,7 @@ const Home = () => {
                     <p className="text-white text-xs font-bold truncate mb-0.5">{movie.title}</p>
                     <p className="text-slate-500 text-xs truncate">{movie.language} • {movie.genre}</p>
                     {movie.durationformatted && (
-                      <p className="text-slate-600 text-xs mt-0.5">{movie.durationformatted} mins</p>
+                      <p className="text-slate-600 text-xs mt-0.5">{movie.durationformatted} </p>
                     )}
                   </div>
                 </div>
